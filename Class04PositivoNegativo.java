@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Class04PositivoNegativo {
     public static void main(String[] strg){
+        
         Scanner read = new Scanner(System.in);
         int numero1;
 
