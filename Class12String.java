@@ -9,7 +9,7 @@ public class Class12String {
         // LA SOBRECARGA BUSCA A PARTIR DE UN INDICE
         System.out.println(texto.indexOf('a',4));
         System.out.println(texto.lastIndexOf('a'));
-        System.out.println();
-        System.out.println();
+        System.out.println(texto.substring(2,4));
+        System.out.println(texto.startsWith("D")); // True or false
     }
 }
