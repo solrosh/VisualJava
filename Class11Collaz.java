@@ -13,7 +13,7 @@ public class Class11Collaz {
             }
             else
                 numero = (numero * 3)+1;
-            System.out.print(numero);
+            System.out.print(String.join(",",numero));
         }
     }
 }

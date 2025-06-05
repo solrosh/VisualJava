@@ -1,0 +1,15 @@
+public class Class12String {
+    public static void main (String [] srt) {
+        String texto = "Desarrollo con java";
+        System.out.println(texto.length());
+        System.out.println(texto.toLowerCase());
+        System.out.println(texto.toUpperCase());
+        // BUSCAMOS LA LETRA "A" DIVERSAS FORMAS
+        System.out.println(texto.indexOf('a'));
+        // LA SOBRECARGA BUSCA A PARTIR DE UN INDICE
+        System.out.println(texto.indexOf('a',4));
+        System.out.println(texto.lastIndexOf('a'));
+        System.out.println();
+        System.out.println();
+    }
+}
