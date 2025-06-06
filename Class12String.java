@@ -5,7 +5,14 @@ public class Class12String {
         System.out.println(texto.toLowerCase());
         System.out.println(texto.toUpperCase());
         // BUSCAMOS LA LETRA "A" DIVERSAS FORMAS
+        System.out.println(texto.indexOf('x'));
+        System.out.println(texto.indexOf('o'));
         System.out.println(texto.indexOf('a'));
+        System.out.println(texto.indexOf('a'));
+        System.out.println(texto.indexOf('a'));
+        System.out.println(texto.lastIndexOf('a'));
+        System.out.println(texto.lastIndexOf('a'));
+        System.out.println(texto.lastIndexOf('a'));
         // LA SOBRECARGA BUSCA A PARTIR DE UN INDICE
         System.out.println(texto.indexOf('a',4));
         System.out.println(texto.lastIndexOf('a'));
