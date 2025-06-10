@@ -17,12 +17,13 @@ public class Class16NumeroNarcicista {
         Scanner read = new Scanner(System.in);
         System.out.print("Introduzca un número: ");
         String dato = read.nextLine();
-        double suma=0;
+        int suma=0;
+        int longitud = dato.length();
         for (int i=0;i<dato.length();i++){
             char digitos = dato.charAt(i);
             String aux = String.valueOf(digitos);
             int numero = Integer.parseInt(aux);
-            double potencia = Math.pow(numero,dato.length());
+            int potencia = (int) Math.pow(numero,longitud);
             suma =+ potencia;
         }
         System.out.println(suma);

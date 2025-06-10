@@ -2,8 +2,12 @@ import java.util.Scanner;
 
 public class Class10Bucles {
     public static void main (String[] srt) {
+
+        String palabra = "Hola";
         //Bucle con for
-        for (int i=1;i<=5;i++){
+        for (int i=0;i<=5;i++){
+            char dato = palabra.charAt(i);
+            System.out.print(dato);
             System.out.println("For: "+i);
         }
         //Bucles de condición
