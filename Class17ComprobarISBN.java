@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Class187ComprobarISBN {
+public class Class17ComprobarISBN {
     public static void main (String[] srt) {
         Scanner read = new Scanner(System.in);
         System.out.println("Introduzca el numero ISBN a validar (10 cifras): ");
